@@ -446,7 +446,7 @@ import Book from "./Book"; // {} not needed because it is default export, only o
 import { greeting } from "./testing/testing";
 
 function BookList() {
-  console.log(greeting); // Relative path export
+  // console.log(greeting); // Relative path export
   return (
     <section className="booklist">
       {books.map((book) => {
